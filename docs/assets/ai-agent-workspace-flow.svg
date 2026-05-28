@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">AI Agent Workspace Lab</title>
+  <desc id="desc">Mock tasks route through policy gates before dry-run traces.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="55%" stop-color="#0b1020"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.26"/>
+      <stop offset="70%" stop-color="#34d399" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .eyebrow { font: 700 16px ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; letter-spacing: .18em; text-transform: uppercase; fill: #34d399; }
+      .headline { font: 800 42px ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; fill: #f8fafc; }
+      .sub { font: 500 21px ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; fill: #cbd5e1; }
+      .node-title { font: 800 20px ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; fill: #f8fafc; }
+      .node-body { font: 500 15px ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; fill: #cbd5e1; }
+      .tag { font: 700 14px ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; fill: #0b1020; }
+    </style>
+  </defs>
+  <rect width="1200" height="520" fill="url(#bg)"/>
+  <rect width="1200" height="520" fill="url(#glow)"/>
+  <circle cx="1080" cy="85" r="130" fill="#34d399" opacity="0.08"/>
+  <circle cx="120" cy="440" r="170" fill="#34d399" opacity="0.07"/>
+  <text x="70" y="78" class="eyebrow">Preballin proof-of-work</text>
+  <text x="70" y="132" class="headline">AI Agent Workspace Lab</text>
+  <text x="70" y="168" class="sub">Mock tasks route through policy gates before dry-run traces.</text>
+  
+  <path d="M 288 227.0 L 309 227.0" stroke="#34d399" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 299 219.0 L 309 227.0 L 299 235.0" fill="none" stroke="#34d399" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 536 227.0 L 557 227.0" stroke="#34d399" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 547 219.0 L 557 227.0 L 547 235.0" fill="none" stroke="#34d399" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 784 227.0 L 805 227.0" stroke="#34d399" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 795 219.0 L 805 227.0 L 795 235.0" fill="none" stroke="#34d399" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <rect x="70" y="185" width="210" height="84" rx="18" fill="#101827" stroke="#34d399" stroke-width="2"/>
+  <text x="88" y="216" class="node-title">Mock tasks</text>
+  <text x="88" y="243" class="node-body">synthetic requests</text>
+  <rect x="318" y="185" width="210" height="84" rx="18" fill="#101827" stroke="#34d399" stroke-width="2"/>
+  <text x="336" y="216" class="node-title">Tool registry</text>
+  <text x="336" y="243" class="node-body">safe capabilities</text>
+  <rect x="566" y="185" width="210" height="84" rx="18" fill="#101827" stroke="#34d399" stroke-width="2"/>
+  <text x="584" y="216" class="node-title">Policy gate</text>
+  <text x="584" y="243" class="node-body">allow/approve/block</text>
+  <rect x="814" y="185" width="210" height="84" rx="18" fill="#101827" stroke="#34d399" stroke-width="2"/>
+  <text x="832" y="216" class="node-title">Dry-run trace</text>
+  <text x="832" y="243" class="node-body">auditable report</text>
+  <rect x="70" y="340" width="430" height="48" rx="24" fill="#34d399"/>
+  <text x="94" y="371" class="tag">clean-room · synthetic fixtures · tests · human review</text>
+</svg>

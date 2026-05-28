@@ -4,6 +4,8 @@ Simulated clean-room agent workspace patterns for task routing, mock tools, appr
 
 This repo is public proof-of-work for AI workflow design, not a dump of private assistant infrastructure. It uses synthetic tasks, mock tools, and deterministic policy checks to show how agent-like workflows can be made auditable and human-reviewable.
 
+![AI Agent Workspace Lab flow](docs/assets/ai-agent-workspace-flow.svg)
+
 ## Safety boundary
 
 This is a clean-room reference demo. It does **not** include real hostnames, IP addresses, private paths, raw chats, assistant memory, gateway layouts, credentials, platform sessions, personal account data, scheduled production jobs, or live external actions.
@@ -19,7 +21,9 @@ This is a clean-room reference demo. It does **not** include real hostnames, IP 
 ## Example
 
 ```bash
-PYTHONPATH=src python -m agent_workspace_lab.demo   --config examples/mock_workspace_config.json   --output reports/generated/dry_run_trace.md
+PYTHONPATH=src python -m agent_workspace_lab.demo \
+  --config examples/mock_workspace_config.json \
+  --output reports/generated/dry_run_trace.md
 ```
 
 Run tests:
