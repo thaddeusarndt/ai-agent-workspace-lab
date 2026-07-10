@@ -35,3 +35,7 @@ PYTHONPATH=src pytest -q
 ## Framing
 
 The goal is to show clean workflow architecture: separate routing from policy, require approval for external actions, block dangerous actions, and generate a trace that a human can review.
+
+---
+
+Part of the [Preballin](https://preballin.com) clean-room portfolio — patterns from production systems, rebuilt with synthetic data.
