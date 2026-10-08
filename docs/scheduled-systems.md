@@ -1,6 +1,6 @@
 # Scheduled systems I build and operate
 
-These are selected patterns from my Hermes, Codex, and Claude Code work. Production runs are private. The examples here rebuild the useful engineering patterns with synthetic inputs.
+These are selected systems from my Hermes, Codex, and Claude Code work. Production runs are private. This repository includes selected operating functions and reference demonstrations with aggregate or synthetic inputs.
 
 | System | Repeated job | What a person receives |
 |---|---|---|
@@ -18,6 +18,22 @@ These are selected patterns from my Hermes, Codex, and Claude Code work. Product
 I care about the second run as much as the first. Replayed inputs should not create duplicate actions. A failed collector should not report “nothing found.” An expired account token should stop publication. A successful upload should not be called a production deployment until the public site serves it.
 
 The public `examples/cron_replay.py` demonstration exercises successful collection, duplicate delivery suppression, incomplete coverage, and retry after failure. It sends nothing and runs no scheduler.
+
+## Selected operating code
+
+`engines/aio_page_inspection.py` contains HTML inspection functions from the operating AIO authority radar. They inspect titles, headings, canonical tags, indexing directives and structured-data block presence. The public reader exposes file errors instead of turning failed reads into empty pages. Private business policy, strategy documents, machine paths and delivery configuration are excluded.
+
+`engines/cron_delivery_gates.py` contains three pure gates from the operating scheduled-job system: content-gap, health and contact-output review. Errors and unknown output wake a reviewer; successful output with no changes can stay quiet. They contain no posting or notification credentials and send nothing.
+
+Run the local audit against the fictional static-site fixture:
+
+```sh
+python examples/aio_audit.py examples/site_snapshot --domain example.com > /tmp/aio-first.json
+python examples/aio_audit.py examples/site_snapshot --domain example.com --previous /tmp/aio-first.json
+python -m pytest -q
+```
+
+The second identical audit sets `wake_for_review` to false. A read failure stays visible, and restored coverage wakes review. The report describes local HTML facts; it does not measure search rankings, validate schema semantics, prove crawler access or establish attribution. It is a public subset of the acquisition system, not the entire production deployment.
 
 ## Current limits
 

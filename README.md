@@ -8,7 +8,7 @@ This repo is public proof-of-work for AI workflow design, not a dump of private 
 
 ## Safety boundary
 
-This is a clean-room reference demo. It does **not** include real hostnames, IP addresses, private paths, raw chats, assistant memory, gateway layouts, credentials, platform sessions, personal account data, scheduled production jobs, or live external actions.
+This repository includes reference demos, selected operating functions and a public aggregate case study. It excludes private machine addresses, paths, raw chats, assistant memory, credentials, account sessions, customer-level records, private strategy and live external actions. The core workspace demo uses mock tools and synthetic tasks.
 
 ## What it demonstrates
 
@@ -42,8 +42,12 @@ The goal is to show clean workflow architecture: separate routing from policy, r
 - [Scheduled systems catalog](docs/scheduled-systems.md): discovery reporting, gap radar, site checks, bookmark intake, lead operations, content planning, fleet history, and health checks.
 - Offline examples: `python examples/aio_report.py examples/aio_aggregate.json` and `python examples/cron_replay.py`.
 
-These are public reference reconstructions and an aggregate business case study. Private production prompts, customer data, infrastructure, and unreleased product plans remain private.
+The reference demos, selected operating functions and aggregate business case study have different scopes; the linked catalog explains each. Private production prompts, customer data, infrastructure, and unreleased product plans remain private.
 
 ---
 
 Part of the [Preballin](https://preballin.com) clean-room portfolio — patterns from production systems, rebuilt with synthetic data.
+
+### Selected operating engines
+
+The [scheduled systems catalog](docs/scheduled-systems.md) now includes selected AIO HTML inspection and cron delivery-gate functions from the operating implementation. The [local audit runner](examples/aio_audit.py) exposes unreadable input, changed output and restored coverage. A fictional fixture makes it reproducible without accounts or network access.
