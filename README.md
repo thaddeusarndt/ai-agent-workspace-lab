@@ -36,6 +36,14 @@ PYTHONPATH=src pytest -q
 
 The goal is to show clean workflow architecture: separate routing from policy, require approval for external actions, block dangerous actions, and generate a trace that a human can review.
 
+## Recent operating work: October 2026
+
+- [AI discovery case study](docs/ai-discovery-case-study.md): six booked lesson students confirmed ChatGPT discovery; 40 measured ChatGPT sessions are reported separately.
+- [Scheduled systems catalog](docs/scheduled-systems.md): discovery reporting, gap radar, site checks, bookmark intake, lead operations, content planning, fleet history, and health checks.
+- Offline examples: `python examples/aio_report.py examples/aio_aggregate.json` and `python examples/cron_replay.py`.
+
+These are public reference reconstructions and an aggregate business case study. Private production prompts, customer data, infrastructure, and unreleased product plans remain private.
+
 ---
 
 Part of the [Preballin](https://preballin.com) clean-room portfolio — patterns from production systems, rebuilt with synthetic data.
